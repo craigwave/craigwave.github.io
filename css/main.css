@@ -94,13 +94,6 @@ p2 {
 
 /*CLASSES*/
 
-.title-wrapper {
-    height: 100%;
-    width: 100%;
-}
-
-.title {}
-
 .craigwave {
     z-index: 10;
     position: fixed;
@@ -135,7 +128,7 @@ p2 {
 
 .menu {
     z-index: 10;
-    position: absolute;
+    position: fixed;
     list-style: none;
     width: 20%;
     top: 10%;
