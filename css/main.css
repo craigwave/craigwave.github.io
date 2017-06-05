@@ -14,7 +14,6 @@ body {
 
 .fluid-vids {
     width: 60%;
-
 }
 
 
@@ -29,10 +28,10 @@ body {
         width: 100%!important;
         margin: 20% 0% 50%!important;
     }
-    
-	.video {
-		margin-left: 0!important;
-	}  
+    .about-wrapper {}
+    .video {
+        margin-left: 0!important;
+    }
     #slider-holder {
         margin: 15% 0!important;
         position: fixed;
@@ -62,7 +61,7 @@ body {
         margin-top: 5%;
         margin-bottom: 10%;
         text-align: justify;
-	color: #f404c0;
+        color: #f404c0;
     }
 }
 
@@ -225,8 +224,15 @@ p2 {
     margin: 0% 20% 50% 10%;
 }
 
-.video{
+.video {}
+
+.about-wrapper {
+    z-index: 5;
+    width: 40%;
+    padding-left: 10%;
+    
 }
+
 
 /*NEW*/
 
