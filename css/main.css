@@ -61,7 +61,7 @@ body {
         margin-top: 5%;
         margin-bottom: 10%;
         text-align: justify;
-        color: #f404c0;
+        //color: #f404c0;
     }
 }
 
@@ -196,14 +196,6 @@ p2 {
 
 /*CONTENT*/
 
-.content-wrapper {
-    z-index: 5;
-    position: relative;
-    width: 80%;
-    height: 500px;
-    margin: 5% 30%;
-}
-
 .content-text {
     position: absolute;
     width: 80%;
@@ -213,7 +205,9 @@ p2 {
 .video-wrapper {
     z-index: 5;
     width: 80%;
-    margin: 0% 20% 50% 10%;
+    float: right;
+    margin-bottom: 10%;
+    margin-top: 10%;
 }
 
 .video {}
@@ -222,7 +216,6 @@ p2 {
     z-index: 5;
     width: 40%;
     padding-left: 10%;
-    
 }
 
 
