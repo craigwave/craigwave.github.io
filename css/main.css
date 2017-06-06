@@ -103,8 +103,7 @@ p2 {
     text-align: left;
     top: 5%;
     padding-left: 15px;
-    //background-color: grey;
-    display: inline;
+    background-color: white;
 }
 
 .craigwave:hover {
