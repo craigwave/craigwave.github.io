@@ -222,6 +222,10 @@ p2 {
     text-align: justify;
 }
 
+.clicked video-wrapper{
+    visibility: hidden;
+}
+
 .video-wrapper {
     z-index: 5;
     width: 80%;
