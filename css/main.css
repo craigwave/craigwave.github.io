@@ -28,7 +28,13 @@ body {
         width: 100%!important;
         margin: 20% 0% 50%!important;
     }
-    .about-wrapper {}
+    .about-wrapper {
+        width: 80%;
+        height: 100%;
+        margin-top: 5%;
+        margin-bottom: 10%;
+        text-align: justify;
+    }
     .video {
         margin-left: 0!important;
     }
@@ -51,9 +57,7 @@ body {
         width: 100%;
         height: 100%;
     }
-    body .content-wrapper {
-        /*width: 100%;*/
-    }
+    
     body .content-text {
         width: 80%;
         height: 100%;
@@ -207,15 +211,16 @@ p2 {
     width: 80%;
     float: right;
     margin-bottom: 10%;
-    margin-top: 10%;
+    margin-top: 5%;
 }
 
 .video {}
 
 .about-wrapper {
-    z-index: 5;
-    width: 40%;
-    padding-left: 10%;
+    width: 60%;
+    text-align: justify;
+    float: right;
+    margin-right: 30%;
 }
 
 
