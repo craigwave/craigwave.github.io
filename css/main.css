@@ -222,8 +222,9 @@ p2 {
     text-align: justify;
 }
 
-.clicked video-wrapper{
+.clicked .video-wrapper{
     visibility: hidden;
+    opacity: 0;
 }
 
 .video-wrapper {
