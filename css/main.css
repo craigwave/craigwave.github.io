@@ -136,7 +136,7 @@ p2 {
 
 .menu-toggle {
     z-index: 10;
-    position: absolute;
+    position: fixed;
     font-size: 13px;
     letter-spacing: 3px;
     font-family: Karla;
