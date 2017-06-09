@@ -128,7 +128,7 @@ p2 {
 
 .craigwave:hover {
     cursor: pointer;
-    color: #f404c0;
+    text-decoration: line-through;
 }
 
 .menu-toggle {
