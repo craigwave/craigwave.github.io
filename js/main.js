@@ -16,6 +16,7 @@ $(document).ready(function () {
     // run test on resize of the window
     $(window).resize(checkSize);
 
+    
     (function (window, document, undefined) {
 
         /*
