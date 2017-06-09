@@ -4,7 +4,6 @@ html {
 }
 
 body {
-    overflow: scroll;
     background-color: white;
     
 }
@@ -29,7 +28,7 @@ body {
     .video-wrapper {
         z-index: 5;
         width: 100%!important;
-        margin: 20% 0% 50%!important;
+        margin: 15% 0% 5%!important;
     }
     .about-wrapper {
         width: 80%;
@@ -63,7 +62,6 @@ body {
     }
     body .content-text {
         width: 100%;
-        height: auto;
         margin-top: 5%;
         text-align: justify;
     }
@@ -220,7 +218,7 @@ p2 {
 /*CONTENT*/
 
 .content-text {
-    width: 80%;
+    width: 100%;
     text-align: justify;
 }
 
@@ -240,10 +238,9 @@ p2 {
 }
 
 .about-wrapper {
-    width: 60%;
+    width: 100%;
     text-align: justify;
     float: right;
-    margin-right: 30%;
 }
 
 .sf-wrapper{
