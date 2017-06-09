@@ -47,7 +47,6 @@ body {
         width: 100%!important;
     }
     body .menu-toggle {
-        position: fixed;
         visibility: visible;
         background-color: white;
     }
