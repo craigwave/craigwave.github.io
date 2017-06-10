@@ -4,11 +4,13 @@
 
 <head>
     <meta charset="utf-8">
-        <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
 
-    <title>photo.</title>
+    <title>film</title>
 
     <link rel="stylesheet" href="css/main.css">
+        <link href="css/hamburgers.css" rel="stylesheet">
+
     <link href="https://fonts.googleapis.com/css?family=Karla" rel="stylesheet">
     <script src="js/jquery-3.2.0.min.js"></script>
     <script src="js/main.js"></script>
@@ -19,39 +21,47 @@
 
 <body>
 
-    <div class="title-wrapper">
-        <div class="craigwave" onclick="location.href='index.html';">
-            <p1>craig.</p1>
-        </div>
-
-        <ul class="menu">
-            <p2>video</p2><br>
-            <li class="menu-item" onclick="location.href='Creative.html';" style="cursor: pointer;">creative</li><br>
-            <li class="menu-item" onclick="location.href='Documentary.html';" style="cursor: pointer;">documentary</li><br>
-            <br>
-            <p2>photo</p2><br>
-            <li class="menu-item" onclick="location.href='Film.html';" style="cursor: pointer;">film</li><br>
-            <li class="menu-item" onclick="location.href='Motion.html';" style="cursor: pointer;">motion</li><br>
-
-            <br>
-            <p2>3d</p2><br>
-            <li class="menu-item" onclick="location.href='Photogrammetry.html';" style="cursor: pointer;">photogrammetry</li><br>
-            <li class="menu-item" onclick="location.href='Models.html';" style="cursor: pointer;">models</li><br>
-
-            <br>
-
-            <li class="menu-item" onclick="location.href='About.html';" style="cursor: pointer;">about</li><br>
-        </ul>
-
-        <div class="image-gallery">
-            <div class="parallax-group">
-                <img class="pic-tattoo" src="img/film/tattoo.JPG" />
-                <img class="pic-squad1" src="img/film/squad1.JPG" />
-                <img class="pic-shimo" src="img/film/shimo.JPG" />
-            </div>
-        </div>
-
+    <div class="title">
     </div>
+
+    <div class="craigwave" onclick="location.href='index.html';">
+        <p1>craig</p1>
+    </div>
+    <div class="menu-toggle">
+        <button class="hamburger hamburger--squeeze" type="button">
+            <span class="hamburger-box">
+                <span class="hamburger-inner"></span>
+            </span>
+        </button>
+    </div>
+
+    <ul class="menu">
+        <p2>video</p2><br>
+        <li class="menu-item" onclick="location.href='Creative.html';" style="cursor: pointer;">creative</li><br>
+        <li class="menu-item" onclick="location.href='Documentary.html';" style="cursor: pointer;">documentary</li><br>
+        <br>
+        <p2>photo</p2><br>
+        <li class="menu-item" onclick="location.href='Film.html';" style="cursor: pointer;">film</li><br>
+        <li class="menu-item" onclick="location.href='Motion.html';" style="cursor: pointer;">motion</li><br>
+
+        <br>
+        <p2>3d</p2><br>
+        <li class="menu-item" onclick="location.href='Photogrammetry.html';" style="cursor: pointer;">photogrammetry</li><br>
+        <li class="menu-item" onclick="location.href='Models.html';" style="cursor: pointer;">models</li><br>
+
+        <br>
+
+        <li class="menu-item" onclick="location.href='About.html';" style="cursor: pointer;">about</li><br>
+    </ul>
+
+    <div class="image-gallery">
+        <div class="parallax-group">
+            <img class="pic-tattoo" src="img/film/tattoo.JPG" />
+            <img class="pic-squad1" src="img/film/squad1.JPG" />
+            <img class="pic-shimo" src="img/film/shimo.JPG" />
+        </div>
+    </div>
+
 
     <script>
     </script>
