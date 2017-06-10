@@ -75,7 +75,7 @@ body {
     
     .craigwave{
         font-size: 15px!important;
-        top: 2%!important;
+        top: 1%!important;
         text-align: center!important;
         padding-left: 0px!important;
         left: 50%;
@@ -153,11 +153,10 @@ p2 {
     display: block;
     cursor: pointer;
     width: 80px;
-    
 }
 
 .menu-toggle {
-    z-index: 10;
+    z-index: 9;
     position: fixed;
     font-size: 13px;
     letter-spacing: 3px;
@@ -165,7 +164,7 @@ p2 {
     visibility: hidden;
     left: 50%;
     margin-left: -40px;
-    top:5%;
+    margin-top: 5%;
 
 }
 
