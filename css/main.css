@@ -5,10 +5,9 @@ html {
 
 body {
     background-color: white;
-    
 }
 
-.image-gallery{
+.image-gallery {
     height: 100vh;
     background-color: white;
     overflow-y: auto;
@@ -16,7 +15,6 @@ body {
     perspective: 1px;
     -webkit-perspective: 1px;
 }
-
 
 
 /*MEDIA*/
@@ -48,7 +46,6 @@ body {
     body .menu-toggle {
         visibility: visible;
         background-color: white;
-        
     }
     body .title {
         background-color: white;
@@ -72,15 +69,13 @@ body {
         margin-top: 5%;
         text-align: justify;
     }
-    
-    .craigwave{
+    .craigwave {
         font-size: 15px!important;
         top: 1%!important;
         text-align: center!important;
         padding-left: 0px!important;
         left: 50%;
         margin-left: -23px;
-
     }
     h2 {
         font-size: 13px;
@@ -149,7 +144,7 @@ p2 {
     text-decoration: line-through;
 }
 
-.hamburger{
+.hamburger {
     display: block;
     cursor: pointer;
     width: 80px;
@@ -166,7 +161,6 @@ p2 {
     left: 50%;
     margin-left: -40px;
     margin-top: 4%;
-
 }
 
 .menu {
@@ -245,7 +239,7 @@ p2 {
     text-align: justify;
 }
 
-.clicked .video-wrapper{
+.clicked .video-wrapper {
     visibility: hidden;
     opacity: 0;
 }
@@ -266,10 +260,14 @@ p2 {
     float: right;
 }
 
-.sf-wrapper{
+.sf-wrapper {
+    display: block;
+    position: relative;
     width: 100%;
-    float: right;
+    height: 0;
 }
+
+
 /*NEW*/
 
 #slider-holder {
