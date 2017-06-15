@@ -26,7 +26,7 @@ body {
     .video-wrapper {
         z-index: 5;
         width: 100%!important;
-        margin: 15% 0% 5%!important;
+        margin: 10% 0% 0%!important;
     }
     .about-wrapper {
         width: 80%;
@@ -251,7 +251,7 @@ p2 {
     display: block;
         position: relative;
 
-    margin-bottom: 10%;
+    margin-bottom: 5%;
     margin-top: 5%;
     margin-right: 5%;
 }
@@ -267,7 +267,7 @@ p2 {
     position: relative;
     width: 100%;
     height: 0;
-    padding-top: 100%;
+    padding-top: 56.25%;
 }
 
 .sf-inner {
