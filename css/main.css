@@ -16,7 +16,9 @@ body {
     -webkit-perspective: 1px;
 }
 
-
+img{
+    padding: 2px;
+}
 
 /*MEDIA*/
 
