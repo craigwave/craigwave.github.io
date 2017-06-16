@@ -17,6 +17,7 @@ body {
 }
 
 
+
 /*MEDIA*/
 
 @media screen and (max-width:720px) {
@@ -26,7 +27,7 @@ body {
     .video-wrapper {
         z-index: 5;
         width: 100%!important;
-        margin: 10% 0% 0%!important;
+        margin: 10% 0% 1%!important;
     }
     .about-wrapper {
         width: 80%;
@@ -249,11 +250,14 @@ p2 {
     width: 80%;
     float: right;
     display: block;
-        position: relative;
-
+    position: relative;
     margin-bottom: 5%;
-    margin-top: 5%;
+    margin-top: 3%;
     margin-right: 5%;
+    -webkit-animation: myanim 2s ; /* Chrome, Opera 15+, Safari 5+ */
+          animation: myanim 2s ; /* Chrome, Firefox 16+, IE 10+, Opera */
+    -webkit-animation-fill-mode: forwards;
+
 }
 
 .about-wrapper {
@@ -297,7 +301,7 @@ p2 {
 
 h2 {
     font-size: 13px;
-    letter-spacing: 3px;
+    letter-spacing: 1px;
     font-weight: 200;
     font-style: italic;
     font-family: Karla;
@@ -323,4 +327,14 @@ p3 {
 }
 
 
-/*SLIDESHOW*/
+/*ANIMATIONS*/
+@-webkit-keyframes myanim {
+  0%   { opacity: 0.0; }
+  50%  { opacity: 0.5; }
+  100% { opacity: 1.0; }
+}
+@keyframes myanim {
+  0%   { opacity: 0.0; }
+  50%  { opacity: 0.5; }
+  100% { opacity: 1.0; }
+}
