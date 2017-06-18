@@ -20,9 +20,20 @@ img{
     padding: 2px;
 }
 
+
 /*MEDIA*/
 
 @media screen and (max-width:720px) {
+    .vimeo{
+        width: 5%;
+    }
+    .insta{
+        width: 5%;
+    }
+    .linkedin{
+        width: 5%;
+    }
+    
     .fluid-vids {
         width: 100%;
     }
@@ -193,6 +204,14 @@ p2 {
 .menu-item:hover {
     cursor: pointer;
     text-decoration: line-through;
+}
+
+.menu-icon {
+    z-index: 10;
+}
+
+.menu-icon:hover {
+    cursor: pointer;
 }
 
 
