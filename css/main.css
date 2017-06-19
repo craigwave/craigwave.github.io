@@ -25,13 +25,17 @@ img {
 
 @media screen and (max-width:720px) {
     .vimeo {
-        width: 5%;
+        width: 7%;
+        padding-right: 5%;
     }
     .insta {
-        width: 5%;
+        width: 7%;
+        padding-right: 5%;
+
     }
     .linkedin {
-        width: 5%;
+        width: 7%;
+        
     }
     .fluid-vids {
         width: 100%;
@@ -61,7 +65,7 @@ img {
         background-color: white;
     }
     body .title {
-        background-color: white;
+        background-color: green;
         width: 100%;
         top: 0;
         height: 70px;
@@ -116,6 +120,9 @@ img {
         font-family: Karla;
         font-weight: 200;
     }
+    p2 {
+    font-size: 20px!important;
+    }
 }
 
 h1 {
@@ -130,7 +137,7 @@ li {
 }
 
 p2 {
-    font-size: 20px;
+    font-size: 13px;
     letter-spacing: 3px;
     font-style: italic;
     font-weight: 200;
