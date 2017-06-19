@@ -20,7 +20,6 @@ img {
     padding: 2px;
 }
 
-
 /*MEDIA*/
 
 @media screen and (max-width:720px) {
@@ -34,8 +33,7 @@ img {
 
     }
     .linkedin {
-        width: 10%;
-        
+        width: 10%;  
     }
     .fluid-vids {
         width: 100%;
