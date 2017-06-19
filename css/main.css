@@ -16,7 +16,7 @@ body {
     -webkit-perspective: 1px;
 }
 
-img{
+img {
     padding: 2px;
 }
 
@@ -24,16 +24,15 @@ img{
 /*MEDIA*/
 
 @media screen and (max-width:720px) {
-    .vimeo{
+    .vimeo {
         width: 5%;
     }
-    .insta{
+    .insta {
         width: 5%;
     }
-    .linkedin{
+    .linkedin {
         width: 5%;
     }
-    
     .fluid-vids {
         width: 100%;
     }
@@ -71,12 +70,19 @@ img{
     }
     body .menu {
         width: auto;
-        line-height: 30px;
+        line-height: 25px;
         visibility: hidden;
         background-color: white;
         width: 100%;
         height: 100%;
         top: 15%;
+    }
+    .menu-item {
+        z-index: 10;
+        font-size: 20px!important;
+        letter-spacing: 0px;
+        font-family: Karla;
+        font-weight: 200;
     }
     .content-text {
         width: 100%;
@@ -124,7 +130,7 @@ li {
 }
 
 p2 {
-    font-size: 13px;
+    font-size: 20px;
     letter-spacing: 3px;
     font-style: italic;
     font-weight: 200;
@@ -275,10 +281,11 @@ p2 {
     margin-bottom: 5%;
     margin-top: 3%;
     margin-right: 5%;
-    -webkit-animation: myanim 2s ; /* Chrome, Opera 15+, Safari 5+ */
-          animation: myanim 2s ; /* Chrome, Firefox 16+, IE 10+, Opera */
+    -webkit-animation: myanim 2s;
+    /* Chrome, Opera 15+, Safari 5+ */
+    animation: myanim 2s;
+    /* Chrome, Firefox 16+, IE 10+, Opera */
     -webkit-animation-fill-mode: forwards;
-
 }
 
 .about-wrapper {
@@ -349,13 +356,27 @@ p3 {
 
 
 /*ANIMATIONS*/
+
 @-webkit-keyframes myanim {
-  0%   { opacity: 0.0; }
-  50%  { opacity: 0.5; }
-  100% { opacity: 1.0; }
+    0% {
+        opacity: 0.0;
+    }
+    50% {
+        opacity: 0.5;
+    }
+    100% {
+        opacity: 1.0;
+    }
 }
+
 @keyframes myanim {
-  0%   { opacity: 0.0; }
-  50%  { opacity: 0.5; }
-  100% { opacity: 1.0; }
+    0% {
+        opacity: 0.0;
+    }
+    50% {
+        opacity: 0.5;
+    }
+    100% {
+        opacity: 1.0;
+    }
 }
