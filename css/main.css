@@ -20,20 +20,34 @@ img {
     padding: 2px;
 }
 
+.vimeo {
+    width: 15px;
+    margin-right: 1%;
+}
+
+.insta {
+    width: 15px;
+    margin-right: 1%;
+}
+
+.linkedin {
+    width: 15px;
+}
+
+
 /*MEDIA*/
 
 @media screen and (max-width:720px) {
     .vimeo {
-        width: 10%;
+        width: 40px;
         padding-right: 5%;
     }
     .insta {
-        width: 10%;
+        width: 40px;
         padding-right: 5%;
-
     }
     .linkedin {
-        width: 10%;  
+        width: 40px;
     }
     .fluid-vids {
         width: 100%;
@@ -117,7 +131,7 @@ img {
         font-weight: 200;
     }
     p2 {
-    font-size: 20px!important;
+        font-size: 20px!important;
     }
 }
 
