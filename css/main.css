@@ -192,6 +192,10 @@ p2 {
     height: 40px;
 }
 
+.hamburger:focus {outline:0;}
+
+
+
 .menu-toggle {
     z-index: 9;
     position: fixed;
